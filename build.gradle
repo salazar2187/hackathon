@@ -54,7 +54,7 @@ tasks.named('test') {
 jar {
 	manifest {
 		attributes(
-				'Main-Class': 'com.hackathon.EnviosApplication'
+				'Main-Class': 'com.hackathon.envios.EnviosApplication'
 		)
 	}
 }
