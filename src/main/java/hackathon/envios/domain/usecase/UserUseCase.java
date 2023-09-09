@@ -1,6 +1,5 @@
 package hackathon.envios.domain.usecase;
 
-
 import hackathon.envios.domain.api.IUserServicePort;
 import hackathon.envios.domain.api.MailExtractor;
 import hackathon.envios.domain.model.User;
@@ -16,6 +15,7 @@ public class UserUseCase implements IUserServicePort {
     private final IUserPersistencePort userPersistencePort;
     private final IRolePersistencePort rolePersistencePort;
     private final MailExtractor mailExtractor;
+
 
     public UserUseCase(IUserPersistencePort personPersistencePort, IRolePersistencePort rolePersistencePort, MailExtractor mailExtractor) {
         this.userPersistencePort = personPersistencePort;

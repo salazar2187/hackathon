@@ -46,6 +46,10 @@ dependencies {
 
 }
 
+springBoot {
+	mainClassName = 'com.hackathon.envios.EnviosApplication'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
